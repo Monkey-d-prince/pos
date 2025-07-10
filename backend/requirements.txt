@@ -6,3 +6,4 @@ numpy
 python-multipart
 pillow
 pydantic
+gunicorn==21.2.0
