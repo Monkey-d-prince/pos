@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import "./RealTime.css";
 
-const WS_URL = "ws://localhost:8000/ws/realtime";
-//const WS_URL = "ws://40.82.136.174:8000/ws/realtime";
+//const WS_URL = "ws://localhost:8000/ws/realtime";
+const WS_URL = "wss://40.82.136.174:8000/ws/realtime";
 
 function RealTime() {
   const videoRef = useRef(null);
