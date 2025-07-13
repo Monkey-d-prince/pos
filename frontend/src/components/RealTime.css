@@ -1,0 +1,71 @@
+.realtime-container {
+  text-align: center;
+  margin-top: 24px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.realtime-video-box {
+  position: relative;
+  display: inline-block;
+  width: 480px;
+  height: 360px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+.realtime-video {
+  border: none;
+  border-radius: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: #222;
+  display: block;
+}
+.realtime-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+.realtime-posture-quality {
+  margin: 24px 0 8px 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.realtime-posture-quality.good {
+  color: #00c853;
+}
+.realtime-posture-quality.okay {
+  color: #ffa502;
+}
+.realtime-posture-quality.bad {
+  color: #d32f2f;
+}
+.realtime-feedback {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.realtime-feedback.good {
+  color: #00c853;
+}
+.realtime-feedback.bad {
+  color: #d32f2f;
+}
+.realtime-type {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #222;
+}
+.realtime-status {
+  margin-top: 20px;
+  font-weight: 600;
+}
+.realtime-status .good {
+  color: #00c853;
+}
+.realtime-status .bad {
+  color: #d32f2f;
+}
